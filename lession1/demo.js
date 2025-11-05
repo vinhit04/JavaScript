@@ -59,10 +59,30 @@ if (number>7) {
 
 // chuỗi 
 let languague = "JavaScript" ;
-let message = "Ngôn ngữ lập trình ${languague} rất phổ biến" ;
+let message = "Ngôn ngữ lập trình " + languague ;
 console.log(message) ;
 
 // thuộc tính và phương thức của chuỗi
+
 // lấy độ dài chuỗi
 console.log(languague.length) ;
 
+// chuỗi con
+console.log(languague.slice(0,4)) ;
+
+// sử dụng ký tự đặc biệt trong chuỗi
+let text = 'Học lập trình \"JavaScript\" tại F8!' ;
+console.log (text) ;
+
+// kiểu số , phương thức
+
+let n = 15.56789 ;
+console.log(n.toFixed(2)) ; // làm tròn 2 chữ số thập phân
+
+// kiểm tra xem có phải số hay không sử dụng isNaN : fales là số , true là không phải số
+console.log(isNaN(n)) ;
+console.log(isNaN("Hello")) ;
+
+// kiểm tra xem nó có phải số nguyên không
+console.log(Number.isInteger(n)) ;
+console.log(Number.isInteger(10)) ;
