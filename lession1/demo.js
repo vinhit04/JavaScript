@@ -86,3 +86,18 @@ console.log(isNaN("Hello")) ;
 // kiểm tra xem nó có phải số nguyên không
 console.log(Number.isInteger(n)) ;
 console.log(Number.isInteger(10)) ;
+
+// làm tròn số theo thập phân được chỉ định
+let number1 = 12.34567 ;
+num = number1.toFixed(4) ;
+console.log(num) ;
+
+//kiểu DL mảng
+let arr1 = [1,2,3,4,5,'hello',{name:'Alice'}, [6,7,8]] ;
+console.log(arr1) ;
+console.log(arr1.length) ;
+console.log(arr1[2]) ;
+console.log(arr1[6].name) ;
+console.log(arr1[7][1]) ;
+
+
