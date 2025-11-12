@@ -99,5 +99,5 @@ console.log(arr1.length) ;
 console.log(arr1[2]) ;
 console.log(arr1[6].name) ;
 console.log(arr1[7][1]) ;
-
-
+// phần tử mảng theo chỉ số (index)
+console.log('Phan tu co chi so la : ',arr1[5]) ; 
