@@ -10,7 +10,7 @@ function tinhTong(arr) {
     }
     return tong;
 }
-
+console.log(tinhTong([1,2,3]));
 
 
 
@@ -28,7 +28,7 @@ function timMax(arr) {
     }
     return max;
 }
-
+console.log(timMax([1,5,3,9,2,4,6,12,7]));
 
 
 // Bài 3: Đếm số chẵn trong mảng
@@ -45,7 +45,7 @@ function demSoChan(arr) {
     }
     return count;
 }
-
+console.log(demSoChan([1,2,3,4,5,6,7,8,9,10]));
 
 
 // Bài 4: Đảo ngược mảng
@@ -60,7 +60,7 @@ function daoNguoc(arr) {
     }
     return arrDaoNguoc;
 }
-
+console.log(daoNguoc([1,2,3,4,5,6]));
 
 
 // Bài 5: Tìm phần tử xuất hiện nhiều nhất trong mảng
@@ -69,7 +69,7 @@ function daoNguoc(arr) {
 // Viết hàm timPhanTuNhieuNhat(arr) để tìm phần tử xuất hiện nhiều nhất.
 // giai
 function timPhanTuNhieuNhat(arr) {
-    let tanSuat = {};
+    let tanSuat = [];
     let maxCount = 0;
     let phanTuNhieuNhat = null;
     for (let i = 0; i < arr.length; i++) {
@@ -82,7 +82,7 @@ function timPhanTuNhieuNhat(arr) {
     }
     return phanTuNhieuNhat;
 }
-
+console.log(timPhanTuNhieuNhat([1,2.5,3.7,2.1,4,5,2,6,3,1,2,3,4,5,6,7]));
 
 
 // Bài 6: Lọc các số dương trong mảng
@@ -99,3 +99,4 @@ function locSoDuong(arr) {
     }
     return arrSoDuong;
 }
+console.log(locSoDuong([-1,-2,4,6,-7,8]));
