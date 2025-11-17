@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="demo3.js" defer></script>
+  </head>
+  <body>
+    <script>
+      var sv = new Object();
+      sv.hoten = prompt("Nhap ho ten sinh vien:");
+      sv.lop = prompt("Nhap lop sinh vien:");
+      sv.tuoi = prompt("Nhap tuoi sinh vien:");
+      this.diem = parseFloat(prompt("Nhap diem sinh vien:"));
+      sv.hienThiThongTin = function () {
+        if (this.diem >= 5) {
+          this.xepLoai = "Dat";
+        } else {
+          this.xepLoai = "Khong dat";
+        }
+        document.write("<h3>Ho ten : " + this.hoten + "</h3>");
+        document.write("<h3>Lop :"  + this.lop +"</h3>");
+        document.write("<h3>Tuoi :"  + this.tuoi +"</h3>");
+        document.write("<h3>xep loai : " + this.xepLoai+"</h3>");
+        };
+    </script>
+    <button onclick="sv.hienThiThongTin()">Hiển thị thông tin</button>
+  </body>
+</html>

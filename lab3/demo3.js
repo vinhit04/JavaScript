@@ -1,0 +1,20 @@
+// Bai 1 :
+const item = [
+    { id: 1, name: 'Nhung nguoi khon kho' , model : 'Viktor Hugo' , cost : 1000000 , quantity : 50}, 
+    { id: 2, name: 'Nguoi lon va con thieu nien' , model : 'Puga' , cost : 2000000 , quantity : 30},
+    { id: 3, name: 'De men phieu luu ky' , model : 'To Hoai' , cost : 3000000 , quantity : 20},
+    { id: 4, name: 'Trinh Tham', model: 'Prada', cost: 4000000, quantity: 10 },
+    { id: 5, name: 'Nguoi ban than', model: 'Chanel', cost: 5000000, quantity: 5 },
+    { id: 6, name: 'Nguoi than', model: 'Versace', cost: 6000000, quantity: 2 },
+    { id: 7, name: 'Nguoi la', model: 'Armani', cost: 7000000, quantity: 1 },
+    { id: 8, name: 'Nguoi yeu moi', model: 'Balenciaga', cost: 8000000, quantity: 3 },
+    { id: 9, name: 'Nguoi dong nghiep', model: 'Fendi', cost: 9000000, quantity: 4 },
+    { id: 10, name:'Nguoi hang xom', model: 'Givenchy', cost: 10000000, quantity: 6 }
+];
+console.log('mang chinh ',push.item2[1, 2, 3]);
+console.log('truy xuat quantity element thu 3 ', item[2].quantity);
+console.log("Cost of item 5:", item[4].cost);
+console.log("Model of item 8:", item[7].model);
+
+//Bai 2 :
+//Bai 3 ;

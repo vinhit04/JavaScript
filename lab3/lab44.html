@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="moCuaSoMoi()">Mo cua so moi</button>
+    <button onclick="dongCuaSoMoi()">Dong cua so moi</button>
+    <button onclick="kiemTraCuaSoMoiDongHayChua()">Kiem tra cua so moi dong hay chua</button>
+    <script>
+        var cuaSoMoi;
+        function moCuaSoMoi(){
+            cuaSoMoi = window.open("https://dantri.com.vn/", "_blank", "width=600,height=400");
+        }
+        function dongCuaSoMoi(){
+            if(cuaSoMoi && cuaSoMoi.closed === false){
+                cuaSoMoi.close();
+            } else {
+                alert("Cua so moi da bi dong hoac chua duoc mo.");
+            }
+        }
+        function kiemTraCuaSoMoiDongHayChua(){
+            if(cuaSoMoi){
+                if(cuaSoMoi.closed){
+                    alert("Cua so moi da bi dong.");
+                } else {
+                    alert("Cua so moi van dang mo.");
+                }
+            } else {
+                alert("Cua so moi chua duoc mo.");
+            }
+        }
+    </script>
+</body>
+</html>
