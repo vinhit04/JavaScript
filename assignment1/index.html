@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+</head>
+<body>
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shop</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <li>Home</li>
+    <li>About</li>
+    <li>Services</li>
+    <li>Booking</li>
+    <li>Login</li>
+    <li>Register</li>
+  </header>
+  <div class="banner" >
+    <div class="slider" id="slider">
+      <div class="slides">
+        <img src="/assignment1/images/banner.jpg" class="slide active">
+        <img src="/assignment1/images/banner2.jpg" class="slide">
+        <img src="/assignment1/images/banner3.jpg" class="slide">
+      </div>
+      <button id="prev" class="slide-control">‹</button>
+      <button id="next" class="slide-control">›</button>
+      <div id="dots" class="dots"></div>
+    </div>
+  </div>
+
+  
+  <div class="products">
+    <h2>Sản phẩm</h2>
+    <div class="product-list" id="product-list">
+    </div>
+  </div>
+
+  <div class="cart">
+    <h3>Giỏ hàng</h3>
+    <ul id="cart-items"></ul>
+    <div>Tổng: <span id="cart-total">0</span> ₫</div>
+    <button id="checkout">Thanh toán</button>
+  </div>
+
+  
+  <div class="flash-sale">
+    <h2>Flash Sale kết thúc sau:</h2>
+    <div id="countdown">00:00:00</div>
+  </div>
+
+
+  <div class="container">
+    <h2>Đặt hàng nhanh</h2>
+    <form id="order-form" novalidate>
+      <label>Tên:<input type="text" id="name" required></label>
+      <label>Email:<input type="email" id="email" required></label>
+      <label>Số lượng:<input type="number" id="qty" min="1" value="1" required></label>
+      <button type="submit">Gửi</button>
+      <div id="form-errors" class="errors"></div>
+    </form>
+  </div>
+
+ 
+  <div class="extras">
+    <div class="geo">
+      <button id="get-loc">Lấy vị trí (Geolocation)</button>
+      <div id="loc-result"></div>
+    </div>
+    <div class="media">
+      <h3>Video giới thiệu</h3>
+      <video id="promo" controls width="auto" preload="metadata">
+        <source src="https://www.youtube.com/watch?v=KVqNo8nBgsg" type="video/mp4">
+        Trình duyệt không hỗ trợ video.
+      </video>
+    </div>
+  </div>
+
+     <footer>
+      <div class="ft1">
+        <div>
+          <h3 >Vietravel</h3>
+          <p >
+            VTourist là đơn vị cung cấp dịch vụ du lịch lữ hành Quốc tế, chuyên thị trường Mỹ,
+            Canada, Châu Âu, Úc, Singapore - Malaysia, Thái Lan và Du lịch MICE.
+          </p>
+          <h3 >CÔNG TY CỔ PHẦN DU LỊCH VTOURIST</h3>
+          <p >Số 459 Trần Hưng Đạo, Phường Cầu Kho, TP.Hồ Chí Minh</p>
+          <p >Email: info@vtourist.com.vn</p>
+          <p >Hotline: 0913.114.115</p>
+        </div>
+        <div>
+          <h3 >Liên hệ các văn phòng</h3>
+
+          <div >
+            <h4 >Hà Nội</h4>
+            <p >Số 7 Thiền Quang, Hai Bà Trưng</p>
+            <p >Điện thoại: 0913.113.114</p>
+            <p >Email: contact@vietravel.com</p>
+          </div>
+
+          <div>
+            <h4 >Đà Nẵng</h4>
+            <p >80 Lê Lợi, P.Hải Châu</p>
+            <p >Điện thoại: 0913.115.111</p>
+            <p >Email: contact@vietravel.com</p>
+          </div>
+        </div>
+        <div>
+          <h3 >Kết nối với chúng tôi</h3>
+        </div>
+      </div>
+      <div >
+        © 2024 Vietravel. All rights reserved.
+      </div>
+    </footer>
+
+  <script src="/assignment1/js/app.js"></script>
+</body>
+</html>
+</body>
+</html>
